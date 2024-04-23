@@ -15,7 +15,6 @@ public class Caminhao extends Transportes {
 
     @Override
     public void imprimirDetalhes() {
-        super.imprimirDetalhes();
         System.out.println("Capacidade de Carga: " + capacidadeCarga);
         System.out.println("Tipo de Carroceria: " + tipoCarroceria);
         System.out.println("Tem Carreta: " + (temCarreta ? "Sim" : "Não"));

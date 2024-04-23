@@ -14,7 +14,6 @@ public class Bicicleta extends Transportes {
 
     @Override
     public void imprimirDetalhes() {
-        super.imprimirDetalhes();
         System.out.println("Tipo: " + tipo);
         System.out.println("Número de Marchas: " + numeroMarchas);
         System.out.println("Tem Cesto: " + (temCesto ? "Sim" : "Não"));

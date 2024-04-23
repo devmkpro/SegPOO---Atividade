@@ -14,7 +14,6 @@ public class CarroPasseio extends Transportes {
 
     @Override
     public void imprimirDetalhes() {
-        super.imprimirDetalhes();
         System.out.println("Número de Portas: " + numeroPortas);
         System.out.println("Tipo de Combustível: " + tipoCombustivel);
         System.out.println("Tem Ar Condicionado: " + (temArCondicionado ? "Sim" : "Não"));

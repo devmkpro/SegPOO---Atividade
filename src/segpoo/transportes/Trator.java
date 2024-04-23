@@ -14,7 +14,6 @@ public class Trator extends Transportes {
 
     @Override
     public void imprimirDetalhes() {
-        super.imprimirDetalhes();
         System.out.println("Potência do Motor: " + potenciaMotor);
         System.out.println("Tem Implemento Agrícola: " + (temImplementoAgricola ? "Sim" : "Não"));
         System.out.println("Tração 4x4: " + (tracao4x4 ? "Sim" : "Não"));

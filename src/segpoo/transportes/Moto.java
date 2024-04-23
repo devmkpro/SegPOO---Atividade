@@ -15,7 +15,6 @@ public class Moto extends Transportes  {
 
     @Override
     public void imprimirDetalhes() {
-        super.imprimirDetalhes();
         System.out.println("Estilo: " + estilo);
         System.out.println("Cilindradas: " + cilindradas);
         System.out.println("Tem Partida Elétrica: " + (temPartidaEletrica ? "Sim" : "Não"));
