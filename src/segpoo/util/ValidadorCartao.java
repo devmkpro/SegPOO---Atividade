@@ -13,7 +13,7 @@ public class ValidadorCartao {
         int digitoVerificador = calcularDigitoVerificador(numeroCartao);
 
         if (verificarCartaoValido(numeroCartao, digitoVerificador)) {
-            // System.out.println("Cartão válido! Bandeira: " + bandeira);
+            System.out.println("Cartão válido! Bandeira: " + bandeira);
 
             return true;
 
